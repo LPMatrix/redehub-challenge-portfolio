@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portfolio</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="block">
+	    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="#" class="logo">Mubaraq</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Skills</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Project</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Blog</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact</a>
+            </li>
+        </ul>
+    </nav>
+	    <section class="container">    
+	        <div class="content">
+	            <div class="content-body">
+	                <div class="body-text">
+	                    <h2 class="lead-text">Hello I'm</h2>
+	                    <h1 class="name">Sanusi Mubaraq</h1>
+	                    <p class="para-title">Professional Freelance Web Designer</p>
+	                    <p class="para-body">I help designers, small agencies and businesses bring their ideas to life.Powered by Figma, VS Code and coffee, I turn your requirements into  product -on time and on budget.</p>
+	                    <button class="btn" type="button">HIRE ME</button>
+	                </div>
+	                <div class="outer-circle">
+		                <div class="body-img">
+		                    <img src="img/me.png" alt="cute guy">
+		                </div>
+	                </div>
+	            </div>
+	        </div> 
+	    </section>
+    </section>
+</body>
+<script type="text/javascript">
+	let mainNav = document.getElementById('js-menu');
+	let navBarToggle = document.getElementById('js-navbar-toggle');
+
+	navBarToggle.addEventListener('click', function () {
+	  mainNav.classList.toggle('menu');
+	});
+</script>
+</html>
