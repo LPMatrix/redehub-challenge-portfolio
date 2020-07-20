@@ -49,7 +49,7 @@ body{
 }
 .body-text {
     margin-top: 3vh;
-    max-width: 50%;
+    width: 50%;
 }
 }
 .para-title {
@@ -88,15 +88,15 @@ body{
 		color: #FFF;
 		background: #E2C287;
 	}
-  	.body-img, .outer-circle{
+  	/*.body-img, .outer-circle{
   		display: none;
-  }
+  }*/
   	.block{
   		background: ##271661;
   }
   	.body-text {
     	margin-top: 0vh;
-		max-width: 100%;
+		width: 100%;
 	}
 	.name{
 		color: #FFF;
@@ -106,10 +106,21 @@ body{
 	}
 	.btn{
 		border: 2px solid #FFF;
+        margin-left: 25%;
+        margin-top: 24px;
 	}
 	.container{
 		display: inline-block;
 	}
+    .content-body{
+        display: inline-block;
+    }
+    .outer-circle{
+        height: 303px;
+        width: 303px;
+        margin-left: 21px;
+        margin-top: 50px;
+    }
 
 }
 
